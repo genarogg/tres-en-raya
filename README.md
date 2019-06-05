@@ -18,4 +18,20 @@ modernizr.js : obtenida de <https://modernizr.com/>
 
 ------
 
+# Three-in-a-row
 
+Three in Raya | Tic Tac Toe | Noughts & amp; Crosses
+
+------
+
+Game created with artificial intelligence layers to create capases strategies to anticipate the movements of the player while creating a strategy that guarantees the success of the game
+
+The recognition of the state of matrices is used as a central pillar for the intelligence of the game.
+
+for try the game: <https://genarogg.github.io/tres-en-raya/>
+
+In this project the following libraries were included:
+
+normalize.css : obtained from <https://necolas.github.io/normalize.css/>
+
+modernizr.js : obtained from <https://modernizr.com/>
