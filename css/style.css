@@ -35,7 +35,12 @@ body{
     padding-right: 10px;
 }
 
-
+#title{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 
 
