@@ -68,7 +68,11 @@ body{
 	margin: 0 auto;
 }
 
-
+#game{
+	position: relative;
+	width: 100%;
+	margin:0 auto;
+}
 
 
 
