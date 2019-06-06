@@ -46,7 +46,10 @@ body{
     margin: 20px 0px;
 }
 
-
+#message #share_panel{
+    display: block;
+    text-align: center;
+}
 
 
 
