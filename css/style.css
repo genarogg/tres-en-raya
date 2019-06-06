@@ -19,5 +19,10 @@ body{
     width: 100%;
 }
 
+#rules p{
+    width: 90%;
+    margin-left: 5%;
+}
+
 
 
