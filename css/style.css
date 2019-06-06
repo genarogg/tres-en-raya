@@ -4,3 +4,11 @@ body{
     color: #FFFFFF;
     background-color: #2c0046;
 }
+
+#rules{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
