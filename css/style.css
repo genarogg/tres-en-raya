@@ -86,4 +86,8 @@ body{
     text-align: center;
 }
 
-
+#board{
+    width: auto;
+    position: relative;
+    padding: 3px 0px 0px 3px;
+}
