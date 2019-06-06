@@ -12,3 +12,12 @@ body{
     margin-bottom: 50px;
     text-align: center;
 }
+
+#rules .info{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+
+
