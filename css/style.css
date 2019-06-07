@@ -97,7 +97,15 @@ body {
 }
 
 
-
+#board .row .cell{
+    margin: -3px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #921137;
+}
 
 
 
