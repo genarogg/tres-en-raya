@@ -113,7 +113,14 @@ body {
                 inset 0px 0px 15px blueviolet;
 }
 
+#board .row .cell img{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
 
+}
 
 
 
