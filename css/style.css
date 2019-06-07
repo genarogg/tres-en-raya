@@ -107,7 +107,11 @@ body {
     border: 2px solid #921137;
 }
 
-
+#board .row .cell:hover{
+    box-shadow: inset 0px 0px 6px black,
+                inset 0px 0px 2px blue,
+                inset 0px 0px 15px blueviolet;
+}
 
 
 
