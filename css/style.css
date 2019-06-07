@@ -133,6 +133,14 @@ body {
     display: block;
 }
 
+#message p#notification{
+    font-size: 6em;
+    font-weight: bold;
+    color:#1B190F;
+    margin-top: 30px; 
+    text-shadow: 1px 1px 1px rgb(250,248,239),
+                -1px -1px 1px rgb(250,248,239);
+}
 
 
 
