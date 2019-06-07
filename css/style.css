@@ -1,93 +1,91 @@
-body{
-    font-family: 'Amaranth', serif;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #2c0046;
+body {
+  font-family: "Amaranth", serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2c0046;
 }
 
-#rules{
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+#rules {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
-#rules .info{
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
+#rules .info {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
 }
 
-#rules p{
-    width: 90%;
-    margin-left: 5%;
+#rules p {
+  width: 90%;
+  margin-left: 5%;
 }
 
-#rules p.contact{
-    text-align: center;
-
+#rules p.contact {
+  text-align: center;
 }
 
-#rules p a{
-    color:#921137;
-    padding-left: 23px;
-    padding-right: 10px;
+#rules p a {
+  color: #921137;
+  padding-left: 23px;
+  padding-right: 10px;
 }
 
-#title{
-    width: 70%;
-    margin-left: 15%;
-    margin-bottom: 15px;
-    text-align: center;
+#title {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-#title div.twitter{
-    margin: 20px 0px;
+#title div.twitter {
+  margin: 20px 0px;
 }
 
-#message #share_panel{
-    display: block;
-    text-align: center;
+#message #share_panel {
+  display: block;
+  text-align: center;
 }
 
-#message div#tweet_game{
-    color: rgb(250,248,239);
-    background-color:#1B190F;
-    padding: 10px 0px 20px 0px;
-    border-radius: 0px 0px 20px 20px;
-    margin-top: -45px;
-    width: 70%;
-    margin-left: 15%;
-    text-align: center;
+#message div#tweet_game {
+  color: rgb(250, 248, 239);
+  background-color: #1b190f;
+  padding: 10px 0px 20px 0px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -45px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
 }
 
-
-#content{
-	width: 100%;
-	margin: 0 auto;
+#content {
+  width: 100%;
+  margin: 0 auto;
 }
 
-#game{
-	position: relative;
-	width: 100%;
-	margin:0 auto;
+#game {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
 }
 
-#game h1{
-    font-size: 3em;
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-    margin: 10px 20px 15px 0px;
+#game h1 {
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 20px 15px 0px;
 }
 
-#content_board{
-    text-align: center;
+#content_board {
+  text-align: center;
 }
 
-#board{
-    width: auto;
-    position: relative;
-    padding: 3px 0px 0px 3px;
+#board {
+  width: auto;
+  position: relative;
+  padding: 3px 0px 0px 3px;
 }
