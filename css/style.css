@@ -151,7 +151,10 @@ body {
 }
 
 
-
+#message #sharePanel{
+    display: block;
+    text-align: center;
+}
 
 
 
