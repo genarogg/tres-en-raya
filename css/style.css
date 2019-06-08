@@ -178,7 +178,16 @@ body {
                 0px 0px 15px blueviolet;
 }
 
-
+#message div#tweetGame{
+    background-color: #1B190f;
+    border-radius: 0px 0px 20px 20px;
+    color: rgb(250, 248, 239);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -40px;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
 
 
 
