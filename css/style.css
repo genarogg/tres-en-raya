@@ -236,7 +236,12 @@ body {
         width: 130px;
     }
 }
+@media screen and (min-width: 767px){
 
+    #rules .info{
+        width: 40%;
+    }
+}
 
 
 
