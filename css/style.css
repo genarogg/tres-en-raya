@@ -252,6 +252,17 @@ body {
     }
 }
 
+.icon-instagram:before{
+    content: "\ea92 ";
+    font-family:'icomoon';
+    color: #FFFFFF;
+    padding-right: 10px;
+    font-size: 17px;
+    position: relative;
+    margin-top: 20px;
+    left: 3%;
+}
+
 
 
 
