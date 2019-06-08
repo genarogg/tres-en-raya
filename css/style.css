@@ -219,6 +219,16 @@ body {
 
 }
 
+.tweet:before{
+    content: "\ea91 ";
+    font-family: 'icomoon';
+    color: #3a559f;
+    padding-right: 10px;
+    font-size: 17px;
+    position: relative;
+    margin-top: 20px;
+}
+
 
 
 
