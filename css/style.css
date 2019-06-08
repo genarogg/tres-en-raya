@@ -157,7 +157,18 @@ body {
 }
 
 
-
+#message p#button{
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color:#1B190F;
+    border-radius: 20px 20px 0px 0px;
+    color: rgb(250,248,239);
+    margin-top: -50px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    line-height: 80px;
+}
 
 
 
