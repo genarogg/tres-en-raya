@@ -243,7 +243,14 @@ body {
     }
 }
 
+@media screen and (min-width: 950px){
 
+    #title h1{
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
 
 
 
