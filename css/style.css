@@ -295,6 +295,16 @@ body {
 
 }
 
+#title img{
+    position: absolute;
+    padding-left:  95px;
+    padding-top: 7px;
+
+    width: 65%;
+    height: 75%;
+    top: -1%;
+    left: 4%;
+}
 
 
 
