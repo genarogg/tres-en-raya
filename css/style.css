@@ -230,7 +230,12 @@ body {
 }
 
 
-
+@media screen and (min-width: 430px){
+    #board .row .cell{
+        height:  130px;
+        width: 130px;
+    }
+}
 
 
 
