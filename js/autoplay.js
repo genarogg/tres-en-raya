@@ -14,7 +14,13 @@ function clearCell(x, y){
     cell.innerHTML = "";
 }
 
-
+function clearBoard(){
+    for(var i = 0; i < 3; i++){
+        for(j = 0; j < 3; j++){
+            clearCell(i, j);
+        }
+    }
+} 
 
 
 
