@@ -65,7 +65,10 @@ function checkCell(x, y){
     }
 }
 
-
+function selectCell(x, y){
+    paintCell(x, y);
+    searchMove();
+}
 
 
 
