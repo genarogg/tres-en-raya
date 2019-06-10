@@ -71,6 +71,15 @@ function selectCell(x, y){
 }
 
 
+function autoplay(){
+    hideMessage();
+
+    for(var i = 0; i < 3; i++){
+        board[i] = new Array(3);
+    }
+
+    
+}
 
 
 
