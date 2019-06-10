@@ -78,7 +78,16 @@ function autoplay(){
         board[i] = new Array(3);
     }
 
-    
+    turn = "ball"; 
+
+    crossSellectedX = 4;
+    crossSellectedY = 4;
+
+    ballSellectedX = 4;
+    ballSellectedY = 4;
+
+    clearBoard();
+    searchMove();
 }
 
 
