@@ -37,9 +37,14 @@ function paintCell(x, y){
         crossSellectedY = y;
     }
 
-    
+    checkLine();
 
-    
+    if(turn == "ball"){
+        turn = "cross";
+    }
+    else{
+        turn = "ball";
+    }
 }
 
 
