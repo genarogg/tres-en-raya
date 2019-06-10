@@ -26,7 +26,16 @@ function paintCell(x, y){
     cell = document.getElementById('c' + x + y);
     cell.innerHTML = "<img src = './img/" + turn + ".gif'></img>";
 
-    
+    if(turn == "ball"){
+        board[x][y] = 1;
+        ballSellectedX = x;
+        ballSellectedY = y;
+    }
+    else{
+        board[x][y] = 2;
+        crossSellectedX = x;
+        crossSellectedY = y;
+    }
 
     
 
