@@ -47,6 +47,20 @@ function paintCell(x, y){
     }
 }
 
+function checkCell(x, y){
+    crosses = checkTurnCount(2);
+
+    if(crosses == 3){
+        if(board[x][y] == 2){
+
+            crossSellectedX = x;
+            crossSellectedY = y;
+            clearCell(x, y);
+        }
+    }
+    
+}
+
 
 
 
