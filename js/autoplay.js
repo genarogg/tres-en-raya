@@ -58,7 +58,11 @@ function checkCell(x, y){
             clearCell(x, y);
         }
     }
-    
+    else{
+        if(board[x][y] == 0 && difMov(x, y)){
+            selectCell(x, y);
+        }
+    }
 }
 
 
