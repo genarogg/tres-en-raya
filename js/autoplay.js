@@ -20,7 +20,18 @@ function clearBoard(){
             clearCell(i, j);
         }
     }
-} 
+}
+
+function paintCell(x, y){
+    cell = document.getElementById('c' + x + y);
+    cell.innerHTML = "<img src = './img/" + turn + ".gif'></img>";
+
+    
+
+    
+
+    
+}
 
 
 
