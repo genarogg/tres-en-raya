@@ -90,7 +90,8 @@ function autoplay(){
     searchMove();
 }
 
-
+//llamado de funciones
+autoplay();
 
 
 
