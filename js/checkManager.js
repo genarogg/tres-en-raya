@@ -21,7 +21,13 @@ function checkColumn(y, value){
 }
 
 
+function checkDiag(d, value){
+    var countValue = 0;
 
+   
+
+    return countValue;
+}
 
 
 
