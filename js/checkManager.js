@@ -9,6 +9,14 @@ function checkRow(x, value){
     return countValue;
 }
 
+function checkColumn(y, value){
+    var countValue = 0;
+
+    
+    return countValue;
+}
+
+
 
 
 
