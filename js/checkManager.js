@@ -24,7 +24,15 @@ function checkColumn(y, value){
 function checkDiag(d, value){
     var countValue = 0;
 
-   
+    if(board[(1 + d)][0] == value){
+        countValue++;
+    }
+    if(board[1][1] == value){
+        countValue++;
+    }
+    if(board[(1 - d)][2] == value){
+        countValue++;
+    }
 
     return countValue;
 }
