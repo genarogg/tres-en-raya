@@ -37,6 +37,23 @@ function checkDiag(d, value){
     return countValue;
 }
 
+function checkLine(){
+    if(turn == "ball"){
+        var value = 1;
+    }
+    else{
+        var value = 2;
+    }
+
+    var line = false;
+
+    
+
+    
+
+   
+
+}
 
 
 
