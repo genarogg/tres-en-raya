@@ -17,6 +17,15 @@ function showMessage(winner){
     notificationMessage = document.getElementById('notification');
     notificationMessage.innerHTML = stringNotification;
 
-  
+    if(winner == 1) {
+        stringButton = "Intentar de nuevo | Try again!";
+    }
+    else{
+        stringButton = " Juega de nuevo | Play Again";
+    }
+
+    MessageButton = document.getElementById('button');
+    MessageButton.innerHTML = stringButton;
+
    
 }
