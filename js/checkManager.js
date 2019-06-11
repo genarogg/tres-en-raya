@@ -12,7 +12,11 @@ function checkRow(x, value){
 function checkColumn(y, value){
     var countValue = 0;
 
-    
+    for (var i = 0; i < 3; i++) {
+        if(board[y][i] == value){
+            countValue++;
+        }	
+    }
     return countValue;
 }
 
