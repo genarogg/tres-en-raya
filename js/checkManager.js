@@ -80,6 +80,12 @@ function checkLine(){
 
 }
 
+function checkTurnCount(turnValue){
+    var turnCount = 0;
+
+    
+    return turnCount;
+}
 
 
 
