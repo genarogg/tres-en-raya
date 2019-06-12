@@ -57,7 +57,15 @@ function checkLine(){
         line = true;
     }
 
-    
+    if(checkColumn(0, value) == 3){
+        line = true;
+    } 
+    if(checkColumn(1, value) == 3){
+        line = true;
+    } 
+    if(checkColumn(2, value) == 3){
+        line = true;
+    }
 
    
 
