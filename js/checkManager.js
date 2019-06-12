@@ -47,7 +47,15 @@ function checkLine(){
 
     var line = false;
 
-    
+    if(checkRow(0, value) == 3){
+        line = true;
+    } 
+    if(checkRow(1, value) == 3){
+        line = true;
+    } 
+    if(checkRow(2, value) == 3){
+        line = true;
+    }
 
     
 
