@@ -67,7 +67,16 @@ function checkLine(){
         line = true;
     }
 
-   
+    if(checkDiag(1, value) == 3){
+        line = true;
+    } 
+    if(checkDiag(-1, value) == 3){
+        line = true;
+    }
+
+    if(line == true){
+        showMessage(value);
+    }
 
 }
 
