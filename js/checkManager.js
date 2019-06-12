@@ -83,7 +83,13 @@ function checkLine(){
 function checkTurnCount(turnValue){
     var turnCount = 0;
 
-    
+    for(var i = 0; i < 3; i++){
+        for(var j = 0; j < 3; j++){
+            if(board[i][j] == turnValue){
+                turnCount++;
+            } 
+        }
+    }
     return turnCount;
 }
 
