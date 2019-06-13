@@ -94,8 +94,12 @@ function checkTurnCount(turnValue){
 }
 
 
-
-
+function difMov(x, y){
+	var diferent = false;
+	
+   
+	return diferent;
+}
 
 
 
