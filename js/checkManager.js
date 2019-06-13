@@ -107,7 +107,12 @@ function difMov(x, y){
         }
     }
     else{
-    
+    if(x != ballSellectedX){
+            diferent = true;
+    }
+    if (y != ballSellectedY){
+            diferent = true;
+    }
 }
 	return diferent;
 }
