@@ -97,7 +97,18 @@ function checkTurnCount(turnValue){
 function difMov(x, y){
 	var diferent = false;
 	
-   
+    if(turn == "cross"){
+
+        if(x != crossSellectedX){
+                diferent = true;
+        }
+        if(y != crossSellectedY){
+                diferent = true;
+        }
+    }
+    else{
+    
+}
 	return diferent;
 }
 
