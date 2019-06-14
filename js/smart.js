@@ -16,7 +16,16 @@ function searchMove(){
     if(balls > 1){
         var completed = false;
         
-       
+        //formar linea de la maquina
+        if(completed == false){
+            completed = completeRow(0, 1);
+        }
+        if(completed == false){
+            completed = completeRow(1, 1);
+        } 
+        
+
+
         
         
         
