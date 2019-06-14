@@ -30,7 +30,14 @@ function searchMove(){
         if(completed == false){
             completed = completeColumn(0, 1);
         }
+        if(completed == false){
+            completed = completeColumn(1, 1);
+        } 
+        if(completed == false){
+            completed = completeColumn(2, 1);
+        } 
         
+       
 
 
         
