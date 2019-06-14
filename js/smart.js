@@ -37,7 +37,12 @@ function searchMove(){
             completed = completeColumn(2, 1);
         } 
         
-       
+        if(completed == false){
+            completed = completeDiag(1, 1);
+        }
+        if(completed == false){
+            completed = completeDiag(-1, 1);
+        } 
 
 
         
