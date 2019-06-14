@@ -117,7 +117,6 @@ function difMov(x, y){
 	return diferent;
 }
 
-
 function checkBlock(x, y){
     if(checkRow(y, 1) == 1 && checkRow(y, 2) == 2){
         return true;
@@ -139,19 +138,3 @@ function checkBlock(x, y){
     }
     return false;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
