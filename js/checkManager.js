@@ -132,7 +132,11 @@ function checkBlock(x, y){
         } 
     }
 
-    
+    if((x == 0 && y == 0) || (x == 1 && y == 1) || (x == 2 && y == 2)){
+        if(checkDiag(-1, 1) == 1 && checkDiag(-1, 2) == 2){
+            return true;
+        } 
+    }
     return false;
 }
 
