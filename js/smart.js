@@ -44,6 +44,14 @@ function searchMove(){
             completed = completeDiag(-1, 1);
         } 
 
+        //cortar linea rival
+        if(completed == false){
+            completed = completeRow(0, 2);
+        }
+        if(completed == false){
+            completed = completeRow(1, 2);
+        } 
+       
 
         
         
