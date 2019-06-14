@@ -58,7 +58,12 @@ function searchMove(){
         if(completed == false){
             completed = completeColumn(0, 2);
         }
-        
+        if(completed == false){
+            completed = completeColumn(1, 2);
+        } 
+        if(completed == false){
+            completed = completeColumn(2, 2);
+        } 
 
         
         
