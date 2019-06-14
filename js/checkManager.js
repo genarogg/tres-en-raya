@@ -118,7 +118,17 @@ function difMov(x, y){
 }
 
 
+function checkBlock(x, y){
+    if(checkRow(y, 1) == 1 && checkRow(y, 2) == 2){
+        return true;
+    }
+   
 
+    
+
+    
+    return false;
+}
 
 
 
