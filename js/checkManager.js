@@ -122,7 +122,9 @@ function checkBlock(x, y){
     if(checkRow(y, 1) == 1 && checkRow(y, 2) == 2){
         return true;
     }
-   
+    if(checkColumn(x, 1) == 1 && checkColumn(x, 2) == 2){
+        return true;
+    }
 
     
 
