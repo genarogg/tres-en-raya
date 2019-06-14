@@ -23,6 +23,13 @@ function searchMove(){
         if(completed == false){
             completed = completeRow(1, 1);
         } 
+        if(completed == false){
+            completed = completeRow(2, 1);
+        }
+               
+        if(completed == false){
+            completed = completeColumn(0, 1);
+        }
         
 
 
