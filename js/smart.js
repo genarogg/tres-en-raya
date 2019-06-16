@@ -92,5 +92,7 @@ function searchMove(){
             randomMov();
         }
     }
-    
+    else{
+        randomMov();
+    }
 }
