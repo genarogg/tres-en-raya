@@ -100,6 +100,11 @@ function searchMove(){
 function randomMov(){
     var cellAvalible = false;
 
-    
+    while(cellAvalible == false){
+        var x = Math.round(Math.random() * 2);
+        var y = Math.round(Math.random() * 2);
+
+        
+    }
     paintCell(x, y);
 }
