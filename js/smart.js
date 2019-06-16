@@ -110,3 +110,15 @@ function randomMov(){
     }
     paintCell(x, y);
 }
+
+function completeRow(x, turnValue){
+    //si hay 2 en linea
+    if(checkRow(x, turnValue) == 2){
+        //buscar cual casilla falta pra completar la linea
+        var findFinal = false;
+        
+        
+        
+    }
+    
+}
