@@ -96,3 +96,10 @@ function searchMove(){
         randomMov();
     }
 }
+
+function randomMov(){
+    var cellAvalible = false;
+
+    
+    paintCell(x, y);
+}
