@@ -104,7 +104,9 @@ function randomMov(){
         var x = Math.round(Math.random() * 2);
         var y = Math.round(Math.random() * 2);
 
-        
+        if(board[x][y] == 0 && difMov(x, y)){
+                cellAvalible = true;
+        }
     }
     paintCell(x, y);
 }
