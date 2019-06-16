@@ -116,7 +116,13 @@ function completeRow(x, turnValue){
     if(checkRow(x, turnValue) == 2){
         //buscar cual casilla falta pra completar la linea
         var findFinal = false;
-        
+        for (i = 0; i < 3; i++) {
+            if(board[i][x] == 0){
+                findFinal = true;
+                var findFinalX = i;
+                var findFinalY = x;
+            }
+        }
         
         
     }
