@@ -65,7 +65,12 @@ function searchMove(){
             completed = completeColumn(2, 2);
         } 
 
-        
+        if(completed == false){
+            completed = completeDiag(1, 2);
+        }
+        if(completed == false){
+            completed = completeDiag(-1, 2);
+        }
         
         
     }
