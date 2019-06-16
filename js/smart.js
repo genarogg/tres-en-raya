@@ -132,7 +132,11 @@ function completeRow(x, turnValue){
                 if(turnValue == 1){
                     var findLost = false;
 
-                    
+                    for(i = 0; i < 3 && findLost == false; i++){
+                        if(i != x){
+                            
+                        }
+                    }
                     
                 }
                 
