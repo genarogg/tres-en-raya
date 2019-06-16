@@ -127,7 +127,14 @@ function completeRow(x, turnValue){
         if(findFinal == true){
            //si hay tres fichas
             if (checkTurnCount(turnValue) == 3) {
-                
+                //preguntar de quien queremos completar la linea
+                //si es la maquina -> armar linea
+                if(turnValue == 1){
+                    var findLost = false;
+
+                    
+                    
+                }
                 
             }
             
