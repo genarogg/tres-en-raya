@@ -85,7 +85,9 @@ function searchMove(){
                         cellFind = true;
                     }
                 }
-               
+                ballSellectedX = x;
+                ballSellectedY = y;
+                clearCell(x, y);
             }
             randomMov();
         }
