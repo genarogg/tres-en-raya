@@ -123,7 +123,15 @@ function completeRow(x, turnValue){
                 var findFinalY = x;
             }
         }
-        
+        //si esta vacia
+        if(findFinal == true){
+           //si hay tres fichas
+            if (checkTurnCount(turnValue) == 3) {
+                
+                
+            }
+            
+        }
         
     }
     
