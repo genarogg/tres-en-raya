@@ -72,7 +72,16 @@ function searchMove(){
             completed = completeDiag(-1, 2);
         }
         
-        
+        //si no se hizo nada de lo anterior
+        if(completed == false){
+            if(balls == 3){
+                var cellFind = false;
+
+                
+               
+            }
+            randomMov();
+        }
     }
     
 }
