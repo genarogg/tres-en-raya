@@ -198,7 +198,19 @@ function completeColumn(x, turnValue){
         if(findFinal == true){
             ////si hay tres fichas
             if (checkTurnCount(turnValue) == 3) {
-                
+                //Preguntar de quien queremos completar la linea
+                //si es la maquina -> armar linea
+                if(turnValue == 1){
+                    //buscamos la perdida
+                    var findLost = false;
+                    
+                    for(i = 0; i < 3 && findLost == false; i++){
+                        if(i != x){
+                            
+                        }
+                    }
+                    
+                }
                
             }
             
