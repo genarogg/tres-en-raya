@@ -194,7 +194,15 @@ function completeColumn(x, turnValue){
                 var findFinalY = i;
             }
         }
-       
+        //si esta vacia
+        if(findFinal == true){
+            ////si hay tres fichas
+            if (checkTurnCount(turnValue) == 3) {
+                
+               
+            }
+            
+        }
         
     }
     
