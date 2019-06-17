@@ -143,7 +143,10 @@ function completeRow(x, turnValue){
                             }
                         }
                     }
-                    
+                    //la borramos
+                    ballSellectedX = findLostX;
+                    ballSellectedY = findLostY;
+                    clearCell(findLostX, findLostY);
                 }
                 
             }
