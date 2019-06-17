@@ -168,7 +168,9 @@ function completeRow(x, turnValue){
 
                 }
             }
-            
+            //pintar la casilla final
+            paintCell(findFinalX, findFinalY);
+            return true;
         }
         
     }
