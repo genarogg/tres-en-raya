@@ -177,5 +177,6 @@ function completeRow(x, turnValue){
             return false;
         }
     }
-    
+    //si no retorna false
+    return false;
 }
