@@ -187,7 +187,13 @@ function completeColumn(x, turnValue){
         //buscar cual casilla falta para completar la linea
         var findFinal = false;
         
-        
+        for (i = 0; i < 3; i++) {
+            if(board[x][i] == 0){
+                findFinal = true;
+                var findFinalX = x;
+                var findFinalY = i;
+            }
+        }
        
         
     }
