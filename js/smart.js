@@ -180,3 +180,16 @@ function completeRow(x, turnValue){
     //si no retorna false
     return false;
 }
+
+function completeColumn(x, turnValue){
+    //si hay 2 en linea
+    if(checkColumn(x, turnValue) == 2){
+        //buscar cual casilla falta para completar la linea
+        var findFinal = false;
+        
+        
+       
+        
+    }
+    
+}
