@@ -206,7 +206,13 @@ function completeColumn(x, turnValue){
                     
                     for(i = 0; i < 3 && findLost == false; i++){
                         if(i != x){
-                            
+                            for(j = 0; j < 3 && findLost == false; j++){
+                                if(board[i][j] == 1){
+                                    findLost = true;
+                                    var findLostX = i;
+                                    var findLostY = j;
+                                }
+                            }
                         }
                     }
                     
