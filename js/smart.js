@@ -157,7 +157,9 @@ function completeRow(x, turnValue){
                         var x = Math.round(Math.random() * 2);
                         var y = Math.round(Math.random() * 2);
 
-                        
+                        if(board[x][y] == 1 && checkBlock(x, y) == false){
+                            cellFind = true;
+                        }
                     }
                     
 
