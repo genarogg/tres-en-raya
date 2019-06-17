@@ -172,7 +172,10 @@ function completeRow(x, turnValue){
             paintCell(findFinalX, findFinalY);
             return true;
         }
-        
+        //si no retorna false
+        else{
+            return false;
+        }
     }
     
 }
