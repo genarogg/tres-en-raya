@@ -148,7 +148,20 @@ function completeRow(x, turnValue){
                     ballSellectedY = findLostY;
                     clearCell(findLostX, findLostY);
                 }
-                
+                //sino -> bloquear linea
+                else{
+                    //buscamos una ficha de la maquina que no bloquea
+                    var cellFind = false;
+
+                    while(cellFind == false){
+                        var x = Math.round(Math.random() * 2);
+                        var y = Math.round(Math.random() * 2);
+
+                        
+                    }
+                    
+
+                }
             }
             
         }
