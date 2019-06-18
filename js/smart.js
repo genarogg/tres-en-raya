@@ -220,7 +220,14 @@ function completeColumn(x, turnValue){
                     ballSellectedY = findLostY;
                     clearCell(findLostX, findLostY);
                 }
-               
+                //sino -> bloquiar linea
+                else{
+                    //buscamos una ficha de la maquina que no blequea
+                    cellFind = false;
+
+                    
+                    
+                }
             }
             
         }
