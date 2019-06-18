@@ -225,7 +225,12 @@ function completeColumn(x, turnValue){
                     //buscamos una ficha de la maquina que no blequea
                     cellFind = false;
 
-                    
+                    while(cellFind == false){
+                        var x = Math.round(Math.random() * 2);
+                        var y = Math.round(Math.random() * 2);
+
+                        
+                    }
                     
                 }
             }
