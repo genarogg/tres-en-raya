@@ -233,7 +233,9 @@ function completeColumn(x, turnValue){
                             cellFind = true;
                         }
                     }
-                    
+                    ballSellectedX = x;
+                    ballSellectedY = y;
+                    clearCell(x, y);
                 }
             }
             
