@@ -247,5 +247,6 @@ function completeColumn(x, turnValue){
             return false;
         }
     }
-    
+    //sino regresa falso
+    return false;
 }
