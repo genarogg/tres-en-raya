@@ -297,7 +297,10 @@ function completeDiag(x, turnValue){
                             }
                         }
                     }
-                    
+                    //la borramos
+                    ballSellectedX = findLostX;
+                    ballSellectedY = findLostY;
+                    clearCell(findLostX, findLostY);
                 }
                 
             }
