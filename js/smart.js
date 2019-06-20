@@ -284,7 +284,11 @@ function completeDiag(x, turnValue){
                     //buscamos la perdida
                     var findLost = false;
                     
-                    
+                    for(i = 0; i < 3 && findLost == false; i++){
+                        for(j = 0; j < 3 && findLost == false; j++){
+                            
+                        }
+                    }
                     
                 }
                 
