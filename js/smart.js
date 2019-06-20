@@ -302,7 +302,14 @@ function completeDiag(x, turnValue){
                     ballSellectedY = findLostY;
                     clearCell(findLostX, findLostY);
                 }
-                
+                //sino -> bloquear linea
+                else{
+                    //buscamos una ficha de la maquina que no bloquea
+                    cellFind = false;
+
+                  
+                    
+                } 
             }
            
         }
