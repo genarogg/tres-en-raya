@@ -321,7 +321,9 @@ function completeDiag(x, turnValue){
                     clearCell(x, y);
                 } 
             }
-           
+            //pintar la casilla final
+            paintCell(findFinalX, findFinalY);
+            return true;
         }
         
     }
