@@ -286,7 +286,15 @@ function completeDiag(x, turnValue){
                     
                     for(i = 0; i < 3 && findLost == false; i++){
                         for(j = 0; j < 3 && findLost == false; j++){
-                            
+                            if(( (i != 1 || j != 1 ) 
+                                && (i != (1 - x) || j != 2) 
+                                && (i != (1 + x) || j != 0 )) 
+                                && board[j][i] == 1){
+
+                                findLost = true;
+                                var findLostX = j;
+                                var findLostY = i;
+                            }
                         }
                     }
                     
