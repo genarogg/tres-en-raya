@@ -263,6 +263,11 @@ function completeDiag(x, turnValue){
             findFinal = true;
         }
 
+        if(board[(1 - x)][2] == 0){
+            var findFinalX = (1 - x);
+            var findFinalY = 2; 
+            findFinal = true;
+        }
 
        
         
