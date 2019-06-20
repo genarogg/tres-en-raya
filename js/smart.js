@@ -280,7 +280,13 @@ function completeDiag(x, turnValue){
             if (checkTurnCount(turnValue) == 3) {
                 //preguntar de quien queremos completar la linea
                 //si es la maquina -> armar linea
-               
+                if(turnValue == 1){
+                    //buscamos la perdida
+                    var findLost = false;
+                    
+                    
+                    
+                }
                 
             }
            
