@@ -274,7 +274,17 @@ function completeDiag(x, turnValue){
             var findFinalY = 0; 
             findFinal = true;
         }
-       
+        //si esta vacia
+        if(findFinal == true){
+            //si hay tres fichas
+            if (checkTurnCount(turnValue) == 3) {
+                //preguntar de quien queremos completar la linea
+                //si es la maquina -> armar linea
+               
+                
+            }
+           
+        }
         
     }
    
