@@ -250,3 +250,22 @@ function completeColumn(x, turnValue){
     //sino regresa falso
     return false;
 }
+
+function completeDiag(x, turnValue){
+    //si hay 2 en linea
+    if(checkDiag(x, turnValue) == 2){
+        //buscar cual casilla falta para completar la linea
+        var findFinal = false;
+
+        if(board[1][1] == 0){
+            var findFinalX = 1;
+            var findFinalY = 1; 
+            findFinal = true;
+        }
+
+
+       
+        
+    }
+   
+}
