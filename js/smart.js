@@ -315,7 +315,10 @@ function completeDiag(x, turnValue){
                             cellFind = true;
                         }
                     }
-                    
+                    //la borramos 
+                    ballSellectedX = x;
+                    ballSellectedY = y;
+                    clearCell(x, y);
                 } 
             }
            
