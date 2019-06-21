@@ -1,0 +1,385 @@
+body {
+  font-family: "Amaranth", serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2c0046;
+}
+
+#rules {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#rules .info {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+#rules p {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#rules p.contact {
+  text-align: center;
+}
+
+#rules p a {
+  color: #921137;
+  padding-left: 23px;
+  padding-right: 10px;
+}
+
+#title {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#title div.twitter {
+  margin: 20px 0px;
+}
+
+#message #share_panel {
+  display: block;
+  text-align: center;
+}
+
+#message div#tweet_game {
+  color: rgb(250, 248, 239);
+  background-color: #1b190f;
+  padding: 10px 0px 20px 0px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -45px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#game {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#game h1 {
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 20px 15px 0px;
+}
+
+#content_board {
+  text-align: center;
+}
+
+#board {
+  width: auto;
+  position: relative;
+  padding: 3px 0px 0px 3px;
+}
+
+#board .row {
+  padding: 0px;
+  width: 100%;
+}
+
+#board .row .cell {
+  margin: -3px;
+  padding: 0px;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  border: 2px solid #921137;
+}
+
+#board .row .cell:hover {
+  box-shadow: inset 0px 0px 6px black, inset 0px 0px 2px blue,
+    inset 0px 0px 15px blueviolet;
+}
+
+#board .row .cell img {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+}
+
+#message {
+  width: 100%;
+  height: 100%;
+  background-color: #4e0763;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  display: block;
+}
+
+#message p#notification {
+  font-size: 6em;
+  font-weight: bold;
+  color: #1b190f;
+  margin-top: 30px;
+  text-shadow: 1px 1px 1px rgb(250, 248, 239), -1px -1px 1px rgb(250, 248, 239);
+}
+
+#message p#notification:hover {
+  cursor: pointer;
+
+  text-shadow: 0px 0px 6px white, 0px 0px 2px blue, 0px 0px 15px blueviolet;
+}
+
+#message #sharePanel {
+  display: block;
+  text-align: center;
+}
+
+#message p#button {
+  font-size: 2.5em;
+  font-weight: bold;
+  background-color: #1b190f;
+  border-radius: 20px 20px 0px 0px;
+  color: rgb(250, 248, 239);
+  margin-top: -50px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  line-height: 80px;
+}
+
+#message p#button:hover {
+  cursor: pointer;
+
+  text-shadow: 0px 0px 4px #b200ff80, 0px 0px 3px blue, 0px 0px 15px blueviolet;
+}
+
+#message div#tweetGame {
+  background-color: #1b190f;
+  border-radius: 0px 0px 20px 20px;
+  color: rgb(250, 248, 239);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -40px;
+  padding: 10px 0px 20px 0px;
+  text-align: center;
+}
+
+.tweet {
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: top;
+  color: #333; /*black*/
+  font-weight: bold;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  text-align: left;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+
+  background: rgb(30, 87, 153); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(214, 214, 214, 1) 100%,
+    rgba(4, 5, 7, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(30, 87, 153, 1)),
+    color-stop(0%, rgba(252, 252, 252, 1)),
+    color-stop(100%, rgba(214, 214, 214, 1)),
+    color-stop(100%, rgba(4, 5, 7, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(214, 214, 214, 1) 100%,
+    rgba(4, 5, 7, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(214, 214, 214, 1) 100%,
+    rgba(4, 5, 7, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(214, 214, 214, 1) 100%,
+    rgba(4, 5, 7, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 87, 153, 1) 0%,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(214, 214, 214, 1) 100%,
+    rgba(4, 5, 7, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#040507',GradientType=0 ); /* IE6-9 */
+  position: relative;
+}
+
+.tweet:before {
+  content: "\ea91 ";
+  font-family: "icomoon";
+  color: #3a559f;
+  padding-right: 10px;
+  font-size: 17px;
+  position: relative;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 430px) {
+  #board .row .cell {
+    height: 130px;
+    width: 130px;
+  }
+}
+@media screen and (min-width: 767px) {
+  #rules .info {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  #title h1 {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
+.icon-instagram:before {
+  content: "\ea92 ";
+  font-family: "icomoon";
+  color: #ffffff;
+  padding-right: 10px;
+  font-size: 17px;
+  position: relative;
+  margin-top: 20px;
+  left: 3%;
+}
+
+.backgroundMe {
+  padding: 5px 60px 5px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: top;
+  color: #333; /*black*/
+  font-weight: bold;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  text-align: left;
+
+  line-height: 15px;
+
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+
+  background: rgb(30, 87, 153); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #00a5ff 0%,
+    #4e0763 0%,
+    #4e0763 100%,
+    #ffffff 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(30, 87, 153, 1)),
+    color-stop(0%, rgba(252, 252, 252, 1)),
+    color-stop(100%, rgba(214, 214, 214, 1)),
+    color-stop(100%, rgba(4, 5, 7, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #00a5ff 0%,
+    #4e0763 0%,
+    #4e0763 100%,
+    #ffffff 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #00a5ff 0%,
+    #4e0763 0%,
+    #4e0763 100%,
+    #ffffff 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #00a5ff 0%,
+    #4e0763 0%,
+    #4e0763 100%,
+    #ffffff 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    #00a5ff 0%,
+    #4e0763 0%,
+    #4e0763 100%,
+    #ffffff 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e0763', endColorstr='#040507',GradientType=0 ); /* IE6-9 */
+
+  position: relative;
+}
+
+#title img {
+  position: absolute;
+  padding-left: 95px;
+  padding-top: 7px;
+
+  width: 65%;
+  height: 75%;
+  top: -1%;
+  left: 4%;
+}
+
+/*Efectos Para el scrollbar*/
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #2c0046;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #2c0046;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+
+::selection {
+  background: #9c27b0;
+}
