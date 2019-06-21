@@ -325,7 +325,10 @@ function completeDiag(x, turnValue){
             paintCell(findFinalX, findFinalY);
             return true;
         }
-        
+        //sino regresa falso
+        else{
+            return false;
+        }
     }
    
 }
