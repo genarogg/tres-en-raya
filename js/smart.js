@@ -330,5 +330,6 @@ function completeDiag(x, turnValue){
             return false;
         }
     }
-   
+    //sino regresa falso
+    return false;
 }
