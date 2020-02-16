@@ -85,5 +85,13 @@ function autoplay() {
   searchMove();
 }
 
+function hiddenNotification (){
+  const hiddeNotification = document.getElementById("message")
+  console.log(hiddeNotification)
+
+  hiddeNotification.classList.add('hiddeMessage');
+
+}
+
 //llamado de funciones
 autoplay();
