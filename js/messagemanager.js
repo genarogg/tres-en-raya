@@ -1,11 +1,18 @@
 function hideMessage() {
   panelMessage = document.getElementById("message");
   panelMessage.style.display = "none";
+  panelMessage.classList.remove("hiddeMessage")
+
+  const cuadroTansparente = document.getElementById("cuadroTansparente");
+  cuadroTansparente.style.display = "none";
 }
 
 function showMessage(winner) {
   panelMessage = document.getElementById("message");
   panelMessage.style.display = "block";
+
+  cuadroTansparente = document.getElementById("cuadroTansparente");
+  cuadroTansparente.style.display = "block";
 
   if (winner == 1) {
     stringNotification = "Game Over";

@@ -85,12 +85,14 @@ function autoplay() {
   searchMove();
 }
 
+
 function hiddenNotification (){
   const hiddeNotification = document.getElementById("message")
-  console.log(hiddeNotification)
+  const cuadroTansparente = document.getElementById("cuadroTansparente")
+
 
   hiddeNotification.classList.add('hiddeMessage');
-
+  cuadroTansparente.classList.add('showTransparente');
 }
 
 //llamado de funciones
