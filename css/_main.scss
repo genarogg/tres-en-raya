@@ -429,6 +429,10 @@ body {
 }
 
 .hiddeMessage{
+  display: block;
+}
+
+.hiddeMessage:hover{
   display: none !important;
 }
 
