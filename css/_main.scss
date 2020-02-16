@@ -87,7 +87,10 @@ body {
 #board {
   width: auto;
   position: relative;
-  padding: 3px 0px 0px 3px;
+  padding: 0;
+
+  width: 100%;
+  margin: 0 auto;
 }
 
 #board .row {
@@ -119,22 +122,23 @@ body {
 }
 
 #message {
-  width: 100%;
+  width: 65%;
   height: 100%;
-  background-color: #4e0763;
+  background-color: #000000;
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 17%;
   text-align: center;
   display: block;
+  border: 1px solid #fff;
+  border-radius: 1px;
 }
 
 #message p#notification {
-  font-size: 6em;
+  font-size: 5em;
   font-weight: bold;
-  color: #1b190f;
-  margin-top: 30px;
-  text-shadow: 1px 1px 1px rgb(250, 248, 239), -1px -1px 1px rgb(250, 248, 239);
+  color: #ffffff;
+  margin-top: 61px;
 }
 
 #message p#notification:hover {
@@ -149,9 +153,9 @@ body {
 }
 
 #message p#button {
-  font-size: 2.5em;
+  font-size: 1.3em;
   font-weight: bold;
-  background-color: #1b190f;
+  background-color: #282828;
   border-radius: 20px 20px 0px 0px;
   color: rgb(250, 248, 239);
   margin-top: -50px;
@@ -168,7 +172,7 @@ body {
 }
 
 #message div#tweetGame {
-  background-color: #1b190f;
+  background-color: #282828;
   border-radius: 0px 0px 20px 20px;
   color: rgb(250, 248, 239);
   width: 70%;
@@ -383,3 +387,66 @@ body {
 ::selection {
   background: #9c27b0;
 }
+
+@media screen and (max-width: 768px) {
+  #board {
+  }
+
+  #message {
+    width: 96%;
+
+    top: -3px;
+    left: 2%;
+  }
+
+  #message p#button {
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #message p#notification {
+    font-size: 3.3em;
+    margin-top: 40px;
+  }
+
+  #message p#button {
+    font-size: 1em;
+    line-height: 50px;
+ 
+}
+
+#message div#tweetGame {
+  
+  margin-top: -17px;
+  
+}
+
+#message #sharePanel {
+
+  padding-top: 28px;
+
+}
+}
+
+.hiddeMessage{
+  display: none !important;
+}
+
+
+.cerrarNotificacion{
+  margin: 0;
+  padding: 0;
+}
+
+    .cerrarNotificacion button{
+      background-color: #4e0763;
+      color: #fff;
+      border: none;
+      border-bottom: 1px solid #fff;
+      border-left: 1px solid #fff;
+      font-size: 24px;
+      margin: 0;
+      padding: 0 8px;
+      position: absolute;
+      right: 0;
+    }
