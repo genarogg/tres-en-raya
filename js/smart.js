@@ -1,4 +1,4 @@
-function searchMove() {
+const searchMove = () => {
   /**
    * contar numeros de bolas
    * si es superior a 1
@@ -96,7 +96,7 @@ function searchMove() {
   }
 }
 
-function randomMov() {
+const randomMov = () => {
   var cellAvalible = false;
 
   while (cellAvalible == false) {
@@ -110,7 +110,7 @@ function randomMov() {
   paintCell(x, y);
 }
 
-function completeRow(x, turnValue) {
+const completeRow = (x, turnValue) => {
   //si hay 2 en linea
   if (checkRow(x, turnValue) == 2) {
     //buscar cual casilla falta pra completar la linea
@@ -179,7 +179,7 @@ function completeRow(x, turnValue) {
   return false;
 }
 
-function completeColumn(x, turnValue) {
+const completeColumn = (x, turnValue) => {
   //si hay 2 en linea
   if (checkColumn(x, turnValue) == 2) {
     //buscar cual casilla falta para completar la linea
@@ -249,7 +249,7 @@ function completeColumn(x, turnValue) {
   return false;
 }
 
-function completeDiag(x, turnValue) {
+const completeDiag = (x, turnValue) => {
   //si hay 2 en linea
   if (checkDiag(x, turnValue) == 2) {
     //buscar cual casilla falta para completar la linea

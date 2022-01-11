@@ -1,4 +1,4 @@
-function checkRow(x, value) {
+const checkRow = (x, value) => {
   var countValue = 0;
 
   for (i = 0; i < 3; i++) {
@@ -7,9 +7,9 @@ function checkRow(x, value) {
     }
   }
   return countValue;
-}
+};
 
-function checkColumn(y, value) {
+const checkColumn = (y, value) => {
   var countValue = 0;
 
   for (var i = 0; i < 3; i++) {
@@ -18,9 +18,9 @@ function checkColumn(y, value) {
     }
   }
   return countValue;
-}
+};
 
-function checkDiag(d, value) {
+const checkDiag = (d, value) => {
   var countValue = 0;
 
   if (board[1 + d][0] == value) {
@@ -34,9 +34,9 @@ function checkDiag(d, value) {
   }
 
   return countValue;
-}
+};
 
-function checkLine() {
+const checkLine = () => {
   if (turn == "ball") {
     var value = 1;
   } else {
@@ -75,9 +75,9 @@ function checkLine() {
   if (line == true) {
     showMessage(value);
   }
-}
+};
 
-function checkTurnCount(turnValue) {
+const checkTurnCount = (turnValue) => {
   var turnCount = 0;
 
   for (var i = 0; i < 3; i++) {
@@ -90,7 +90,7 @@ function checkTurnCount(turnValue) {
   return turnCount;
 }
 
-function difMov(x, y) {
+const difMov = (x, y) => {
   var diferent = false;
 
   if (turn == "cross") {
@@ -111,7 +111,7 @@ function difMov(x, y) {
   return diferent;
 }
 
-function checkBlock(x, y) {
+const checkBlock = (x, y) => {
   if (checkRow(y, 1) == 1 && checkRow(y, 2) == 2) {
     return true;
   }

@@ -1,13 +1,13 @@
-function hideMessage() {
+const hideMessage = () => {
   panelMessage = document.getElementById("message");
   panelMessage.style.display = "none";
-  panelMessage.classList.remove("hiddeMessage")
+  panelMessage.classList.remove("hiddeMessage");
 
   const cuadroTansparente = document.getElementById("cuadroTansparente");
   cuadroTansparente.style.display = "none";
-}
+};
 
-function showMessage(winner) {
+const showMessage = (winner) => {
   panelMessage = document.getElementById("message");
   panelMessage.style.display = "block";
 
@@ -41,4 +41,4 @@ function showMessage(winner) {
   }
   messageTweet = document.getElementById("tweetGameOver");
   messageTweet.innerHTML = StringTwitter;
-}
+};

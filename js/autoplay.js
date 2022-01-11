@@ -7,14 +7,14 @@ var crossSellectedY;
 var ballSellectedX;
 var ballSellectedY;
 
-function clearCell(x, y) {
+const clearCell = (x, y) => {
   board[x][y] = 0;
 
   cell = document.getElementById("c" + x + y);
   cell.innerHTML = "";
 }
 
-function clearBoard() {
+const clearBoard = () =>{
   for (var i = 0; i < 3; i++) {
     for (j = 0; j < 3; j++) {
       clearCell(i, j);
@@ -22,7 +22,7 @@ function clearBoard() {
   }
 }
 
-function paintCell(x, y) {
+const paintCell = (x, y) =>{
   cell = document.getElementById("c" + x + y);
   cell.innerHTML = "<img src = './img/" + turn + ".gif'></img>";
 
@@ -45,7 +45,7 @@ function paintCell(x, y) {
   }
 }
 
-function checkCell(x, y) {
+const checkCell = (x, y) => {
   crosses = checkTurnCount(2);
 
   if (crosses == 3) {
@@ -61,12 +61,12 @@ function checkCell(x, y) {
   }
 }
 
-function selectCell(x, y) {
+const selectCell = (x, y) => {
   paintCell(x, y);
   searchMove();
 }
 
-function autoplay() {
+const autoplay = () => {
   hideMessage();
 
   for (var i = 0; i < 3; i++) {
@@ -86,7 +86,7 @@ function autoplay() {
 }
 
 
-function hiddenNotification (){
+const hiddenNotification = () => {
   const hiddeNotification = document.getElementById("message")
   const cuadroTansparente = document.getElementById("cuadroTansparente")
 
