@@ -1,11 +1,11 @@
-var board = new Array(3);
-var turn;
+let board = new Array(3);
+let turn;
 
-var crossSellectedX;
-var crossSellectedY;
+let crossSellectedX;
+let crossSellectedY;
 
-var ballSellectedX;
-var ballSellectedY;
+let ballSellectedX;
+let ballSellectedY;
 
 const clearCell = (x, y) => {
   board[x][y] = 0;
