@@ -14,8 +14,6 @@ En este proyecto se incluyeron las siguientes librerias:
 
 normalize.css : obtenida de <https://necolas.github.io/normalize.css/>
 
-modernizr.js : obtenida de <https://modernizr.com/>
-
 ------
 
 # Three-in-a-row
@@ -33,5 +31,3 @@ for try the game: <https://genarogg.github.io/tres-en-raya/>
 In this project the following libraries were included:
 
 normalize.css : obtained from <https://necolas.github.io/normalize.css/>
-
-modernizr.js : obtained from <https://modernizr.com/>
