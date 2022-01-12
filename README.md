@@ -1,5 +1,11 @@
-tres en raya
-# Tres-en-raya
+<p align="center">
+  <a href="https://genarogg.tk">
+    <img alt="Gatsby" src="https://genarogg.github.io/link-To-my-brand/img/isotipo.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Tres-en-raya
+</h1>
 Tres en Raya | Tic Tac Toe | Noughts &amp; Crosses
 =======
 ------
